@@ -1,9 +1,0 @@
-0000000000000000000000000000000000000000 774bf63ccdd341103ab0032d9b7ce5c3f28d18f6 codebyBakar <abubakerg2005@gmail.com> 1782125728 +0500	commit (initial): Initial commit: Bellezza frontend
-774bf63ccdd341103ab0032d9b7ce5c3f28d18f6 774bf63ccdd341103ab0032d9b7ce5c3f28d18f6 codebyBakar <abubakerg2005@gmail.com> 1782125728 +0500	Branch: renamed refs/heads/master to refs/heads/main
-774bf63ccdd341103ab0032d9b7ce5c3f28d18f6 782e45fd273ec0006300b88780daf8b8f86a5dae codebyBakar <abubakerg2005@gmail.com> 1782482282 +0500	commit: add bulk select & delete on admin products page
-782e45fd273ec0006300b88780daf8b8f86a5dae 44ecc4959414c86f94ae9edc3394e1eea695c11d codebyBakar <abubakerg2005@gmail.com> 1782554371 +0500	commit: Update frontend files
-44ecc4959414c86f94ae9edc3394e1eea695c11d 10d76dce9e6f27d5010873fad8ee474c98033f37 codebyBakar <abubakerg2005@gmail.com> 1782730934 +0500	commit: Add image lightbox with zoom/pan on product detail page
-10d76dce9e6f27d5010873fad8ee474c98033f37 894d3c1e5fe91dbf7c3aa48b4a4d9071c226b23d codebyBakar <abubakerg2005@gmail.com> 1782731641 +0500	commit: Fix mobile white flash: add page-content + min-height to loading/error states, fix skeleton grid on mobile
-894d3c1e5fe91dbf7c3aa48b4a4d9071c226b23d 2d3e5a705dee2489cab77035d1e9a740ef25e2be codebyBakar <abubakerg2005@gmail.com> 1782732553 +0500	commit: Fix: product card title line-clamp to 1 line
-2d3e5a705dee2489cab77035d1e9a740ef25e2be 8cff5c21bef525e3af3d7b3bfc2ad9ef03ac3fe3 codebyBakar <abubakerg2005@gmail.com> 1782916417 +0500	commit: Update frontend files
-8cff5c21bef525e3af3d7b3bfc2ad9ef03ac3fe3 f0d5ae735d0ac365572a3a0502920bd4d0432387 codebyBakar <abubakerg2005@gmail.com> 1782916678 +0500	commit: Update favicon
