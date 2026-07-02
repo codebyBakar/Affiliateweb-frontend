@@ -31,11 +31,11 @@ const MASONRY = [
   { src: '/assets/allbags.jpg', name: 'All Types of Bags', tall: false },
   { src: '/assets/cosmetic.avif', name: 'All types of Cosmetics', tall: false },
 ];
-const TESTIMONIALS = [
-  { text: 'The Glow Serum Pro completely transformed my morning routine. My skin has never looked this radiant.', name: 'Sarah M.', meta: 'Verified Buyer · Skincare', avatar: '/assets/avatar1.jpg' },
-  { text: 'Discovered Bellezza through Pinterest and I am obsessed. The curation is so thoughtful — every product feels luxurious.', name: 'Emma K.', meta: 'Verified Buyer · Fashion', avatar: '/assets/avatar2.jpg' },
-  { text: 'Finally a platform that understands what clean beauty actually means. The K-Beauty section is my weekly indulgence.', name: 'Yuna L.', meta: 'Verified Buyer · K-Beauty', avatar: '/assets/avatar3.jpg' },
-];
+// const TESTIMONIALS = [
+//   { text: 'The Glow Serum Pro completely transformed my morning routine. My skin has never looked this radiant.', name: 'Sarah M.', meta: 'Verified Buyer · Skincare', avatar: '/assets/avatar1.jpg' },
+//   { text: 'Discovered Bellezza through Pinterest and I am obsessed. The curation is so thoughtful — every product feels luxurious.', name: 'Emma K.', meta: 'Verified Buyer · Fashion', avatar: '/assets/avatar2.jpg' },
+//   { text: 'Finally a platform that understands what clean beauty actually means. The Beauty section is my weekly indulgence.', name: 'Yuna L.', meta: 'Verified Buyer · Beauty', avatar: '/assets/avatar3.jpg' },
+// ];
 
 function RotatingStar() {
   return (
@@ -350,10 +350,10 @@ export default function HomePage() {
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(280px,1fr))', gap: 'clamp(32px,5vw,80px)', alignItems: 'center' }}>
             <m.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', aspectRatio: '4/5' }}>
-              <img src={EDIT_IMG} alt="K-Beauty Edit" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src={EDIT_IMG} alt="Beauty Edit" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </m.div>
             <div>
-              <span className="t-label">The K-Beauty Edit</span>
+              <span className="t-label">The Beauty Edit</span>
               <h2 className="t-h1" style={{ marginTop: 16 }}>Skin That<br /><em>Tells a Story</em></h2>
               <p className="t-body" style={{ marginTop: 16 }}>
                 Inspired by the 10-step Korean skincare ritual, our curated edit brings the very best formulations directly to your routine.
@@ -376,7 +376,7 @@ export default function HomePage() {
                 ))}
               </div>
               <button className="btn btn-primary btn-lg" style={{ marginTop: 32 }} onClick={() => navigate('/shop')}>
-                Shop K-Beauty <Icon name="arrow-r" size={16} stroke="white" />
+                Shop  <Icon name="arrow-r" size={16} stroke="white" />
               </button>
             </div>
           </div>
