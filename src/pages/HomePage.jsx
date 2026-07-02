@@ -18,7 +18,7 @@ const HERO_SLIDES = [
   { src: '/assets/totbag.avif', alt: 'Hand Bags' },
   { src: '/assets/cloths.webp', alt: 'Clothing' },
 ];
-const EDIT_IMG = '/assets/editorial.jpg';
+const EDIT_IMG = '/assets/editorial.png';
 
 const MASONRY = [
   { src: '/assets/serum.avif', name: 'All Types Of Serums', tall: true },
