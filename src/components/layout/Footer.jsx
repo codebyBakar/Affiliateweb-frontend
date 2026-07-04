@@ -34,9 +34,9 @@ const COLS = [
 ];
 
 const SOCIAL_LINKS = {
-  instagram: { url: 'https://www.instagram.com/beeutygo?igsh=bTVraTBtbTNvbXMw', brand: { bg: '#E1306C', border: '#E1306C' } },
+  instagram: { url: 'https://www.instagram.com/beautyhouse_99?igsh=bTVraTBtbTNvbXMw', brand: { bg: '#E1306C', border: '#E1306C' } },
   pinterest: { url: 'https://www.pinterest.com/abubakerg2005/', brand: { bg: '#E60023', border: '#E60023' } },
-  tiktok: { url: 'https://www.tiktok.com/@beeutygo', brand: { bg: '#111', border: '#111' } },
+  tiktok: { url: 'https://www.tiktok.com/@beautyhouse_99?_r=1&_t=ZS-97kdVnOnLm8', brand: { bg: '#111', border: '#111' } },
 };
 
 export default function Footer() {
