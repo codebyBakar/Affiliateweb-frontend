@@ -72,8 +72,10 @@ export const api = {
     }).then(handleResponse),
 
   // Categories
-  getCategories: () =>
-    fetch(`${BASE}/categories`).then(handleResponse),
+  getCategories: (params = {}) => {
+    const q = new URLSearchParams(params).toString();
+    return fetch(`${BASE}/categories${q ? `?${q}` : ''}`).then(handleResponse);
+  },
   createCategory: (data) =>
     fetch(`${BASE}/categories`, {
       method: 'POST',

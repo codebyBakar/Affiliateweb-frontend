@@ -118,7 +118,7 @@ function NewsletterForm() {
 export default function HomePage() {
   const navigate = useNavigate();
   const { data: productsData, loading, error: productsError } = useProducts({ featured: true, limit: 8 });
-  const { data: categories, error: categoriesError } = useCategories();
+  const { data: categories, error: categoriesError } = useCategories({ featured: true });
   const { settings } = useSiteSettings();
   const [slideIndex, setSlideIndex] = useState(0);
 

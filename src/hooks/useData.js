@@ -33,8 +33,10 @@ export const useProducts = (params = {}) => {
 export const useProduct = (slug) =>
   useFetch(() => api.getProductBySlug(slug), [slug]);
 
-export const useCategories = () =>
-  useFetch(() => api.getCategories(), []);
+export const useCategories = (params = {}) => {
+  const key = JSON.stringify(params);
+  return useFetch(() => api.getCategories(params), [key]);
+};
 
 export const useTags = () =>
   useFetch(() => api.getTags(), []);
