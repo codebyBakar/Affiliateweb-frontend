@@ -117,7 +117,7 @@ export const api = {
 
   // Auth
   login: (credentials) =>
-    fetch(`${BASE}/auth/login`, {
+    fetch(`${BASE}/auth/cOVID@1122BEEUTYGO/login`, {
       method: 'POST',
       headers: getHeaders(false),
       body: JSON.stringify(credentials),
