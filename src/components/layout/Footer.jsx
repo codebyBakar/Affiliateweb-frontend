@@ -11,7 +11,6 @@ const COLS = [
       { label: 'Makeup', to: '/shop?category=makeup' },
       { label: 'Bags', to: '/shop?category=bags' },
       { label: 'Fashion', to: '/shop?category=fashion' },
-      { label: 'K-Beauty', to: '/shop?category=k-beauty' },
     ],
   },
   {
@@ -22,15 +21,7 @@ const COLS = [
       { label: 'Sustainability', to: '/about' },
     ],
   },
-  {
-    heading: 'Support',
-    links: [
-      { label: 'FAQ', to: '/' },
-      { label: 'Affiliate Info', to: '/' },
-      { label: 'Contact', to: '/' },
-      { label: 'Privacy Policy', to: '/' },
-    ],
-  },
+  
 ];
 
 const SOCIAL_LINKS = {
